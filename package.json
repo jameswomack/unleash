@@ -8,7 +8,9 @@
     "prepublish": "npm run test",
     "test": "npm run lint && mocha --harmony",
     "single": "mocha --harmony --grep",
-    "clean": "git clean -d -f -x"
+    "clean": "git clean -d -f -x",
+    "snyk-protect": "snyk protect",
+    "prepare": "npm run snyk-protect"
   },
   "repository": {
     "type": "git",
@@ -34,7 +36,7 @@
   "dependencies": {
     "chalk": "1.1.1",
     "fancy-log": "1.1.0",
-    "gulp-babel": "5.3.0",
+    "gulp-babel": "6.0.0",
     "gulp-bump": "1.0.0",
     "gulp-filter": "3.0.1",
     "gulp-git": "1.6.0",
@@ -46,18 +48,20 @@
     "lodash.template": "3.6.2",
     "nf-conventional-changelog": "1.0.0",
     "npm": "2.14.8",
-    "npm-check": "4.1.2",
+    "npm-check": "5.0.1",
     "object-values": "1.0.0",
     "paqman": "1.0.0",
     "semver": "5.0.3",
-    "undertaker": "0.12.1",
+    "undertaker": "0.14.0",
     "vinyl-fs": "2.2.1",
-    "yargs": "^3.29.0"
+    "yargs": "^3.29.0",
+    "snyk": "^1.88.0"
   },
   "devDependencies": {
     "assert-plus": "0.1.5",
     "eslint": "1.7.3",
     "jscs": "2.3.5",
     "mocha": "2.3.3"
-  }
+  },
+  "snyk": true
 }
