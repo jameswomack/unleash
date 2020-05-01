@@ -19,10 +19,6 @@
 * **cli:** Add header ([cc3f1fd3](https://github.com/netflix/unleash/commit/cc3f1fd3))
 
 
-<a name="2.1.0"></a>
-## 2.1.0 (2020-04-30)
-
-
 <a name="2.0.1"></a>
 ### 2.0.1 (2017-11-11)
 
