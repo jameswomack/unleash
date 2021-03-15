@@ -65,7 +65,7 @@
     "lodash.difference": "4.3.0",
     "lodash.merge": "4.6.2",
     "nf-conventional-changelog": "github:jameswomack/nf-conventional-changelog#7fda882",
-    "npm": "^6.8.0",
+    "npm": "^7.0.0",
     "object-values": "1.0.0",
     "paqman": "1.0.0",
     "readable-stream": "2.1.4",
