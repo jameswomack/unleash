@@ -76,7 +76,7 @@
     "undertaker": "1.1.0",
     "vinyl-fs": "3.0.0",
     "wrap-promise": "1.0.1",
-    "yargs": "13.2.4",
+    "yargs": "18.0.0",
     "@snyk/protect": "^1.657.0"
   },
   "devDependencies": {
