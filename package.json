@@ -20,7 +20,7 @@
     "test:single": "tape tests/single-runner.js | tap-difflet",
     "clean": "git clean -d -f -x",
     "prepare": "npm run snyk-protect",
-    "snyk-protect": "snyk-protect"
+    "snyk-protect": "snyk-protect || true"
   },
   "repository": {
     "type": "git",
@@ -67,7 +67,7 @@
     "lodash.difference": "4.3.0",
     "lodash.merge": "4.6.2",
     "nf-conventional-changelog": "github:jameswomack/nf-conventional-changelog#7fda882",
-    "npm": "^7.21.0",
+    "npm": "7.21.0",
     "object-values": "1.0.0",
     "paqman": "1.0.0",
     "readable-stream": "2.1.4",
@@ -76,8 +76,8 @@
     "undertaker": "1.1.0",
     "vinyl-fs": "3.0.0",
     "wrap-promise": "1.0.1",
-    "yargs": "18.0.0",
-    "@snyk/protect": "^1.657.0"
+    "yargs": "13.2.4",
+    "@snyk/protect": "1.657.0"
   },
   "devDependencies": {
     "babel-eslint": "7.2.2",
