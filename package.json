@@ -72,7 +72,7 @@
     "rimraf": "2.5.4",
     "semver": "5.7.2",
     "undertaker": "1.1.0",
-    "vinyl-fs": "4.0.0",
+    "vinyl-fs": "3.0.0",
     "wrap-promise": "1.0.1",
     "yargs": "18.0.0"
   },
