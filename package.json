@@ -19,7 +19,7 @@
     "test:cover": "nyc --report-dir=tests/coverage --reporter=lcov $npm_package_config_testunit && opn tests/coverage/lcov-report/index.html",
     "test:single": "tape tests/single-runner.js | tap-difflet",
     "clean": "git clean -d -f -x",
-    "prepublish": "npm run snyk-protect",
+    "prepare": "npm run snyk-protect",
     "snyk-protect": "snyk-protect"
   },
   "repository": {
